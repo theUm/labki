@@ -1,0 +1,27 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "kostyas worksop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"test\"",
+    "start": "app.js",
+    "build": "echo \"build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theUm/labki.git"
+  },
+  "author": "1337.um@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theUm/labki/issues"
+  },
+  "homepage": "https://github.com/theUm/labki#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
