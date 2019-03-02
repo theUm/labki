@@ -5,7 +5,7 @@ cache: npm
 install:
     - npm ci
 script:
-    - npm run lint .
+    - npm eslint .
     - npm run test
     - npm run build
     - now alias --token=$SECRET_KEY -V 2 labki-$TRAVIS_BRANCH.now.sh
