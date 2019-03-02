@@ -8,4 +8,5 @@ script:
     - npx eslint .
     - npm run test
     - npm run build
+after_script:
     - now alias --token=$SECRET_KEY labki-$TRAVIS_BRANCH.now.sh
