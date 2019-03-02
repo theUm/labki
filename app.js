@@ -6,6 +6,6 @@ const server = http.createServer((req, res) => {
   res.end('Hello World\n');
 });
 
-console.log('I work on port')
-console.log(process.env.port || 8080);
-server.listen(process.env.port || 8080);
+server.listen(process.env.port || 8080, null, () => {
+  console.log(process.env.port || 8080);
+});
